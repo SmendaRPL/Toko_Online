@@ -1,0 +1,322 @@
+*{
+	margin:0;
+	padding:0;
+}
+.body-admin{
+	background: #DADFE1;
+}
+.wrapper{
+	width:80%;
+	height:610px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:4%;
+}
+.adminpage{
+	margin-top:-600px;
+	margin-left:50%;
+}
+.content{
+	border :1px solid black;
+	border-radius: 10px;
+	width:23.1%;
+	height:600px;
+}
+.maincontent{
+	border : 1px solid black;
+	border-radius : 10px;
+	width:70%;
+	height:500px;
+	margin-left:23.2%;
+	margin-top:20px;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	color:blue;
+}
+ul{
+	margin-left:10%;
+	margin-top:20px;
+	font-size:20px;
+}
+li {
+	list-style:none;
+	margin-left:30px;
+	font-size:15px;
+}
+label{
+	margin-left:20px;
+}
+.form select{
+	margin-left:20px;
+	border-radius:5px;
+	width:50%;
+	border:2px solid black;
+	height:30px;
+	transition:1s;
+}
+.form select:hover{
+	border:2px solid orange;
+}
+.form input[type="text"]{
+	border-radius:5px;
+	width:50%;
+	margin-left:20px;
+	border:2px solid black;
+	margin-top:10px;
+	height:20px;
+	transition-duration:1s;
+}
+.form input[type="text"]:hover{
+	border:2px solid orange;
+}
+.form textarea{
+	border-radius:5px;
+	width:50%;
+	margin-left:20px;
+	border:2px solid black;
+	margin-top:10px;
+}
+.form textarea:hover{
+	border:2px solid orange;
+	transition:1s;
+}
+.form input[type="submit"]{
+	border-radius:10px;
+	border:2px solid orange;
+	background:black;
+	color:white;
+	margin-top:10px;
+	margin-left:20px;
+	cursor:pointer;
+	height:30px;
+	width:100px;
+}
+.form input[type="submit"]:hover{
+	background:orange;
+	border: 2px solid black;
+	color:black;
+}
+img{
+	width:50%;
+	margin-left:15px;
+}
+.link{
+	margin-left:20px;
+}
+h1{
+	margin-left:20px;
+}
+table, th, td{
+	padding:1px;
+	border:1px solid black;
+	margin-left:3%;
+	margin-top:10px;
+}
+table{
+	display:inline-block;
+}
+.pagging, .hapusdata{
+	margin-left:3%;
+}
+/*index.php*/
+
+header {
+	padding: 15px 5px;
+	height:60px;
+	text-align: center;
+	background: #336E7B;
+	color: black;
+	font-family: sans-serif;
+}
+h2{
+	margin-top: 10px;
+	font-size: 30px;
+}
+.home-side{
+	width: 100%;
+	background: green;
+	height: 720px;
+}
+.left-side{
+	width: 20%;
+	height: 720px;
+	background: #2C3E50;
+	float:left;
+}
+.admin-p{
+	border-bottom: 2px solid #336E7B;
+	font-family: Segoe UI;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	color: #336E7B;
+}
+.admin-p:hover{
+	opacity: 0.8;
+	color: #336E7B;
+}
+.center-side{
+	width: 60%;
+	height: 720px;
+	background: white;
+	float: left;
+}
+.slider{
+	width: 100%;
+	height: 320px;
+	background: #39424D;
+}
+.imgslider{
+	width: 100%;
+	height: 320px;
+	margin-left: 0px;
+}
+.barang{
+	height:400px;
+	vertical-align:center;
+	background: #599E9B;
+}
+h4{
+	font-family: Segoe UI;
+}
+.barang1{
+		display: inline-block;
+		border: 1px solid black;
+		border-radius: 15px;
+		padding: 30px;
+		margin-left: 15px;
+		margin-top: 15px;
+		width:23%;
+		height: 250px;
+		float: left;
+		background: white;
+}
+.barang1:hover{
+	opacity:0.7;
+}
+.price{
+	border: 1px solid black;
+	position: absolute;
+	color: white;
+	background: black;
+}
+.gambar{
+	width: 50%;
+	height: 100px;
+	padding: 0px 25px;
+}
+.buy{
+	margin-top: 20px;
+	margin-left: 50px;
+	color: #26B864;
+	width: 40%;
+	height: 20px;
+	font-family: Calibri;
+	text-align: center;
+}
+.buy:hover{
+	color:#599E9B;
+}
+.active-state{
+	width: 60%;
+	margin-left: 30px;
+}
+.right-side{
+	width: 20%;
+	height: 720px;
+	background: #2C3E50;
+	float: right;
+}
+.clear{
+	clear:both;
+}
+.link1{
+	color: black;
+}
+footer{
+	padding: 5px;
+	text-align: center;
+	background: #336E7B;
+	color: black;
+}
+.cart{
+	width: 87%;
+	margin-left: 15px;
+	color: black;
+}
+.keranjang{
+	color: black;
+	font-size: 30px;
+	font-family: Agency FB;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+/*view_cart.php*/
+.view{
+	background: #D2D7D3;
+}
+.pembayaran{
+	color: #707070;
+}
+.view_cart{
+	background: #ECECEC;
+	border: 1px solid #ECECEC;
+	border-radius: 10px;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 320px;
+	padding: 5px;
+}
+.gambar1{
+	width: 80%;
+	height: 100px;
+}
+.div-gambar1{
+	width: 25%;
+}
+.target{
+	margin-top: -60px;
+	margin-left: 25.5%;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1000px) {
+	header{
+		width: 100%;
+		height: 100px;
+	}
+	.home-side{
+		width: 100%;
+	}
+	.left-side{
+		width: 100%;
+	}
+	.center-side{
+		width: 100%;
+		height: 1370px;
+	}
+	.box{
+		width: 100%;
+		height: 230px;
+	}
+	.right-side{
+		width: 100%;
+	}
+	.cart{
+		width: 93%;
+	}
+	.barang1{
+		width: 70%;
+	}
+	.barang{
+		height: 1050px;
+	}
+	footer{
+		width: 100%;
+	}
+}
